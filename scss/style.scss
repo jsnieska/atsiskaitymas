@@ -2,15 +2,26 @@ body {
   margin: 0;
   padding: 0;
   user-select: none;
-  width: 1400px;
+  max-width: 1400px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  max-height: 105px;
+
+.text {
+width: 400px;
+
+}
 }
 
 .social-links {
   color: #E27866;
 }
+
+
 .social-links i {
-  height: 30px;
-  width: 30px;
-  font-size: 1.2em;
-  
+  font-size: 1.5em;
+
 }
