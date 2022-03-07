@@ -15,16 +15,19 @@ body {
   display: flex;
   justify-content: space-around;
   height: 105px;
-  max-width: 1400px;
+  width: 1400px;
+  margin-top: 19px;
+  
 
 .text {
     max-width: 681px;
+    padding-left: 151px;
 h3 {
   width: 130px;
   height: 24px;
+  margin-bottom: 5px;
   color: #333333;
   opacity: 1;
-  text-align: left;
 
 }
 p {
@@ -36,12 +39,20 @@ p {
 }
 .social-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 702.78px;
+    padding-right: 158px;
     color: #E27866;
     font-size: 1.6em;
     opacity: 0.65;
+
+.wireless {
+  background-color: #E27866;
+  // color: #E27866;
+  width: 30px;
+  height: 30px;
+}
   }
   
 }
