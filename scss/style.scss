@@ -8,20 +8,26 @@ body {
 .social-media {
   display: flex;
   justify-content: space-around;
-  max-height: 105px;
-
-.text {
-width: 400px;
-
+  height: 105px;
 }
+text {
+  top: 730px;
+  left: 151px;
 }
+
+p {
+  width: 394px;
+}
+// .text {
+// width: 394px;
+// }
+
 
 .social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 702.78px;
   color: #E27866;
-}
-
-
-.social-links i {
-  font-size: 1.5em;
-
+  font-size: 1.6em;
 }
