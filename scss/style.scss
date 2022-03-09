@@ -60,3 +60,85 @@ p {
 }
 
 //Section 4 
+
+
+//Section 5
+
+section .five {
+height: 592px;
+
+
+}
+.five .main {
+  text-align: center;
+  margin-top: 98.76px;
+
+  h2 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 14px;
+    color: #86878B;
+  }  
+}
+
+.reasons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 65.24px;
+  width: 960px;
+  height: 194px;
+}
+
+  .design {
+    width: 286px;
+    .img-1{
+      margin: auto;
+      width: 50px;
+      height: 50px;
+  
+      img { 
+        padding: 14px 16px 14px 17px;
+        width: 17px;
+        height: 23px;
+        border: 1px solid #E27866;
+        border-radius: 50px;
+    }
+    }
+
+  .name {
+    font-size: 20px;
+    color: #333333;
+    margin-top: 37px;
+  }
+  p {
+    text-align: center;
+    font-size: 14px;
+    color: #86878B;
+    width: 286px;
+    height: 58px;
+  }
+  }
+
+  
+  .img-2{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+
+    img { 
+      padding: 14px 16px 14px 17px;
+      width: 17px;
+      height: 23px;
+      border: 1px solid #E27866;
+      border-radius: 50px;
+  }
+  }
+
+//  .crafter {
+//   //  margin: 0 97 0 97;
+//   margin-left: 97;
+//   margin-right: 97;
+//  } 
+
