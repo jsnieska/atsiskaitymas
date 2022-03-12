@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   user-select: none;
+  text-decoration: none;
 }
 
 body {
@@ -11,6 +12,121 @@ body {
   font-family: Montserrat;
 }
 
+//Meniu
+
+.meniu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  background: #1C1C1C;
+
+.logo {
+  width: 199.37px;
+  height: 52.06px;
+  padding-left: 147px;
+  padding-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 531px;
+  padding-right: 148px;
+}
+a {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 25px;
+}
+a:hover {
+  cursor: pointer;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #E27866;
+}
+}
+
+//Header
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 639px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url(/images/city.png);
+  // opacity: 0.63;
+
+.header1 {
+  width: 651px;
+  padding-top: 66px;
+  padding-left: 150px;
+  color: white;
+
+img {
+  width: 246px;
+  height: 107px;
+  padding-bottom: 22px;
+ } 
+h2 {
+  width: 426px;
+  height: 87px;
+  font-size: 36px;
+  padding-bottom: 21px;
+}
+hr {
+  border-top: 2px solid white;
+  width: 70px;
+  margin-bottom: 24px;
+}
+p {
+  height: 65px;
+  padding-bottom: 43px;
+}
+button {
+  background: none;
+  width: 135px;
+  height: 42px;
+  color: white;
+  border: 2px solid white;
+}
+}
+.form {
+  width: 360px;
+  margin-top: 75px;
+
+.name {
+  height: 57px;
+  color: black;
+  background: #F5F5F5;
+
+h3 {
+  width: 260px;
+  margin: auto;
+  // padding-top: 17px;
+}
+span {
+  color: #E27866;
+}
+}
+// .details {
+
+// }
+.button1 {
+height: 57px;
+margin: auto;
+background: #41D395;
+text-align: center;
+
+button {
+  background: none;
+  width: 127px;
+  font-size: 18px;
+  border: none;
+  color: #FFFFFF;
+  margin: auto;
+}
+}
+}
+}
 
 //Social Media section
 .social-media {
