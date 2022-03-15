@@ -15,11 +15,11 @@
       <div class="logo"> <img src="images/logo1.png" alt="logo"></div>
       <div class="nav">
         <nav>
-          <a href="">Features</a>
-          <a href="">About</a>
-          <a href="">Pricing</a>
-          <a href="">Reviews</a>
-          <a href="">Contact</a>
+          <a href="#third">Features</a>
+          <a href="#fourth">About</a>
+          <a href="#sixth">Pricing</a>
+          <a href="#seven">Reviews</a>
+          <a href="#contact">Contact</a>
         </nav>
       </div>
     </div>
@@ -40,10 +40,10 @@
         </div>
         <div class="details">
           <p>Your details</p>
-          <div class="inputs">
-            <input id="first.name" type="fname" placeholder="First name">
-            <input id="last.name" type="lname" placeholder="Last name">
-            <input id="phone.number" type="phone" placeholder="Phone Number"></div>
+          <form autocomplete="off" class="inputs">
+            <input id="first.name" type="fname" placeholder="First name" autocomplete="false">
+            <input  id="last.name" type="lname" placeholder="Last name" autocomplete="false" >
+            <input id="phone.number" type="phone" placeholder="Phone Number" autocomplete="false" ></form>
           <p>Type of subscription</p>
           <div class="checkbox">
             <input type="checkbox"> <label for="subscription">Montly</label>
@@ -67,6 +67,29 @@
         <div><i class="fa-brands fa-twitter"></i></div>
         <div><i class="fa-brands fa-pinterest-p"></i></div>
         <div><i class="fa-solid fa-signal"></i></div>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+
+    <section class="third">
+      <div class="main1">
+        <div class="square">
+          <div class="register"><p>Register</p></div>
+          <div class="apply"><p>Apply</p></div>
+          <div class="receive"><p>Receive</p></div>
+        </div>
+        <div class="text">
+          <p class="tabs">Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</p>
+          <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        </div>
+        <div class="images">
+          <div class="two">
+            <div class="first"><p>Explore</p></div>
+            <div class="second"><p>Find</p></div>
+          </div>
+          <div class="third"><p>Sport</p></div>
+        </div>
       </div>
     </section>
     
@@ -213,9 +236,56 @@
 
     <!-- Section 7 -->
 
-    <!-- <section class="seven">
-
-    </section> -->
+    <section class="seven">
+      <div class="main5">
+        <p>WHAT OUR CUSTOMERS ARE SAYING</p>
+        <hr>
+      </div>
+      <div class="about-person">
+        <div class="chatbubble"> 
+          <div class="text5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</div>
+          <div class="info">
+            <div class="person"></div>
+            <div class="about">
+              <div>
+                <p class="name">Jeremy H.</p>
+              </div>
+              <div>
+                <p class="position">Manager</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="chatbubble"> 
+          <div class="text5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</div>
+          <div class="info">
+            <div class="person"></div>
+            <div class="about">
+              <div>
+                <p class="name">Jogn S.</p>
+              </div>
+              <div>
+                <p class="position">Freelancer</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="chatbubble"> 
+          <div class="text5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex.</div>
+          <div class="info">
+            <div class="person"></div>
+            <div class="about">
+              <div>
+                <p class="name">Susan W.</p>
+              </div>
+              <div>
+                <p class="position">Photographer</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- section 8 -->
     <section class="contact">
@@ -225,17 +295,19 @@
       </div>
       <div class="form1">
           <div class="inputs">
-            <input type="fname" placeholder="First name">
-            <input type="lname" placeholder="Last name">
-            <input type="phone" placeholder="Phone Number"></div>
+            <input id="first.name1" type="fname" placeholder="First name" autocomplete="off">
+            <input id="last.name2" type="lname" placeholder="Last name" autocomplete="off">
+            <input id="phone.number3" type="phone" placeholder="Phone Number" autocomplete="off">
+          </div>
           <div class="checkbox">
             <input type="checkbox"> <label for="subscription">PERSONAL</label>
             <input type="checkbox"> <label for="subscription">COMPANY</label>
           </div>
-          <button>GET STARTED</button>
+          <button id="button2">GET STARTED</button>
         </div>
     </section>
-
+    
+    <!-- Footer -->
     <footer>
       <div class="social-links">
         <div><i class="fa-brands fa-facebook-f"></i></div>
@@ -248,7 +320,9 @@
         <p>© 2019 Cheshire County</p>
       </div>
     </footer>
+
 <body>
   <script src="script.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,78 @@
+.seven {
+    width: 100%;
+    height: 591px;
+  
+  
+  .main5 {
+    text-align: center;
+    padding-bottom: 58px;
+  
+    p {
+      padding-top: 67px;
+      padding-bottom: 31px;
+      font-size: 36px;
+      width: 696px;
+      height: 44px;
+      margin: auto;
+    }
+    
+    hr {
+      border-top: 2px solid #6696E2;
+      width: 64px;
+      margin: auto;
+  
+    }
+  }
+  .about-person {
+    display: flex;
+    justify-content: space-around;
+  }
+  .chatbubble {
+    width: 273px;
+    height: 236px;
+  
+    .text5 {
+      background-color: #6696E2;
+      color: #FFFFFF;
+      border-radius: 5px;
+      padding: 20px;
+      position: relative;
+    }
+    .text::before {
+      position: absolute;
+      content: "";
+      top: 93%;
+      left: 20px;
+      border: 15px solid transparent;
+      border-top-color: #6696E2;
+    }
+    
+    .info {
+      display: flex;
+      padding-top: 10px;
+  
+  
+      .person {
+        width: 70px;
+        height: 70px;
+        background: url("https://images.unsplash.com/photo-1587397845856-e6cf49176c70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+        background-size: cover;
+        border-radius: 100%;
+      }
+      .about {
+        padding-top: 11px;
+        padding-left: 13px;
+      
+      .name {
+        font-size: 20px;
+      }
+      .position {
+        padding-top: 4px;
+        font-size: 14px;
+        color: #86878B;
+      }
+      }
+    }
+  
+  }
+  }
