@@ -36,9 +36,12 @@
     height: 42px;
     color: white;
     border: 2px solid white;
+    transition: 0.3s;
   }
   button:hover{
     cursor: pointer;
+    background-color: #FFFFFF;
+    color: black;
   }
   }
   .form {
@@ -108,6 +111,14 @@
   }
   #button1 {
     cursor: pointer;
+    color: black;
   }
   }
   }
+
+@media (max-width: 1000px){
+  .header2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
