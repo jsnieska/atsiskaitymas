@@ -89,3 +89,18 @@
   }
   }
   }
+
+  @media (max-width: 748px){
+    .fourth {
+      display: flex;
+      flex-direction: column;
+      height: 900px;
+    .logo {
+      margin-left: -100px;
+    }
+    .side-text {
+      margin-top: -200px;
+      padding-left: 80px;
+    }
+  }
+}

@@ -45,3 +45,18 @@
     }
     
   }
+
+  @media (max-width: 748px){
+    .social-media {
+      display: flex;
+      flex-direction: column;
+      height: 700px;
+    }
+    .social-links {
+      display: flex;
+      flex-direction: column;
+    }
+    i {
+      padding-bottom: 50px;
+    }
+  }
